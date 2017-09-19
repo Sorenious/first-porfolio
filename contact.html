@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Christopher Soren</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <hr>
+  
+      <h3>Feel free to contact me.</h3>
+      <p>Required fields are marked with an asterisk (*).<br>Your information will not be shared.</p>
+
+      <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+
+        <label for="yourName">*Name:</label>
+          <div><input type="text" name="yourName" id="myFName" required="required">
+          </div>
+          <br>
+        <label for="yourEmail">*E-mail:</label>
+          <div><input type="email" name="yourEmail" id="myEmail" size="20" required="required">
+          </div>
+          <br>
+        <label for="yourComments">Comments:</label>  
+          <div><textarea name="yourComments" id="myComments" rows="3" cols="32" ></textarea>
+          </div>
+          <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="connect">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><a href="https://github.com/Sorenious" target="_blank"><img src="assets/images/if_github_square_black_107109.png" width="32" height="32" alt="GitHub Logo"></a></li>
+        <li><a href="https://www.linkedin.com/in/christopher-soren-a52848117/" target="_blank"><img src="assets/images/if_social-linkedin-square1_771369.png" width="32" height="32" alt="LinkedIn Logo"></a></li>
+        <li><a href="https://stackoverflow.com/users/8560772/sirier"><img src="assets/images/if_overflow_334695.png" width="32" height="32" alt="Stack Overflow Logo"></a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+
+  
+
+    <div id="copyright">
+      Copyright &copy; 2017 Christopher Soren<br>
+    </div>
+
+  </footer>
+</body>
+</html>
